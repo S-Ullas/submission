@@ -1,0 +1,68 @@
+[
+    {
+        "question": " If a line is said to be SA1 then the signal of the line is always ",
+        "options": [
+            "1",
+            "0"
+        ],
+        "correctAnswer": "1"
+    },
+    {
+        "question": " If a line is said to be SA0 then the signal of the line is always ",
+        "options": [
+            "1",
+            "0"
+        ],
+        "correctAnswer": "0"
+    },
+    {
+        "question": "The J-K flip flops has ___________ memory",
+        "options": [
+            "Temporary",
+            "Random",
+            "Nonrandom",
+            "True"
+        ],
+        "correctAnswer": "True"
+    },
+    {
+        "question": "With four J-K flip-flops wired as an asynchronous counter, the first output change of divider #4 indicates a count of how many input clock pulses? ",
+        "options": [
+            "16",
+            "8",
+            "4",
+            "2"
+        ],
+        "correctAnswer": "8"
+    },
+    {
+        "question": " When toggle condition occurs in JK flip flop?",
+        "options": [
+            "J=1, K=1",
+            "J=0, K=0",
+            "J=1, K=0",
+            "J=0, K=1"
+        ],
+        "correctAnswer": "J=1, K=1"
+    },
+    {
+        "question": "In a J-K flip flop, when J₁ = 0 and K₁ = 1, the output Qn+1 will have a value of: ",
+        "options": [
+            "0",
+            "1",
+            "Qn",
+            "None of the above"
+        ],
+        "correctAnswer": "0"
+    },
+    {
+        "question": "The no-change conditions occur when ________ in JK flip flop ",
+        "options": [
+            "J=1, K=1",
+            "J=0, K=0",
+            "J=1, K=0",
+            "J=0, K=1"
+        ],
+        "correctAnswer":"J=0, K=0"
+    },
+];
