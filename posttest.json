@@ -1,0 +1,70 @@
+[
+    {
+        "question": "What does the triangle on the clock input of a J-K flip-flop mean? ",
+        "options": [
+            "level enabled",
+            "edge-triggered"
+        ],
+        "correctAnswer": "edge-triggered"
+    },
+    {
+        "question": "A correct output is achieved from a master-slave J-K flip-flop only if its inputs are stable while the:",
+        "options": [
+            "clock is LOW",
+            "slave is transferring",
+            "flip flop reset",
+            "clock is HIGH"
+        ],
+        "correctAnswer": "clock is HIGH"
+    },
+    {
+        "question": "The toggle condition in a master-slave J-K flip-flop means that Q and will switch to their ________ state(s) at the ________",
+        "options": [
+            "opposite, active clock edge",
+            "inverted, positive clock edge",
+            "quiescent, negative clock edge",
+            "reset, synchronous clock edge"
+        ],
+        "correctAnswer": "opposite, active clock edge"
+    },
+    {
+        "question": "With four J-K flip-flops wired as an asynchronous counter, the first output change of divider #4 indicates a count of how many input clock pulses? ",
+        "options": [
+            "16",
+            "8",
+            "4",
+            "2"
+        ],
+        "correctAnswer": "8"
+    },
+    {
+        "question": "What is the significance of the J and K terminals on the J-K flip-flop?",
+        "options": [
+            "There is no known significance in their designations.",
+            "The J represents 'jump' which is how the Q output reacts whenever the clock goes high and the J input is also HIGH.",
+            "The letters were chosen in honor of Jack Kilby, the inventory of the integrated circuit.",
+            "All of the other letters of the alphabet are already in use."
+        ],
+        "correctAnswer": "The letters were chosen in honor of Jack Kilby, the inventory of the integrated circuit."
+    },
+    {
+        "question": "Two J-K flip-flops with their J-K inputs tied HIGH are cascaded to be used as counters. After four input clock pulses, the binary count is ________. ",
+        "options": [
+            "00",
+            "11",
+            "10",
+            "01"
+        ],
+        "correctAnswer": "00"
+    },
+    {
+        "question": "On a master-slave flip-flop, when is the master enabled? ",
+        "options": [
+            "when the gate is LOW",
+            "when the gate is HIGH",
+            "both of the above",
+            "neither of the above"
+        ],
+        "correctAnswer": "when the gate is HIGH"
+    },
+];
