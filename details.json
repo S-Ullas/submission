@@ -3,7 +3,7 @@
    "details": [
        {
 			"Experiment": "Detection of SA1 Fault in JK flip flop",
-			"Lab": "Design of Digital System Lab",
+			"Lab": "Computer Organization and Architecture Lab",
 			"Discipline": "Computer Science Engineering",
 			"Technology": "HTML, Javascript, CSS"
        }
@@ -34,7 +34,18 @@
 			"Contributer": "Rahul Singh",
       "Institute": "National Institute of Technology Karnataka, Surathkal",
       "InstituteAcronym": "NITK"
+       },
+       {
+			"Contributer": "Siddhartha Charan",
+      "Institute": "National Institute of Technology Karnataka, Surathkal",
+      "InstituteAcronym": "NITK"
+       },
+        {
+			"Contributer": "Sai Nachiketh",
+      "Institute": "National Institute of Technology Karnataka, Surathkal",
+      "InstituteAcronym": "NITK"
        }
+	
    ]
 
 }
