@@ -1,1 +1,1 @@
-Design of Digital System Lab
+Computer Organization and Architecture Lab
