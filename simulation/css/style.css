@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+}
+.flex{
+    display: flex;
+}
+a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
+}
+.mainContainer{
+    margin: auto;
+    width: 80%;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.arrow .before,.arrow .after{
+    position: absolute;
+    font-size: 3rem;
+    font-weight: bold;
+    cursor: pointer;
+    top: 0;
+    margin: calc(50vh - 1.5rem) 0;
+}
+.arrow .before{
+    left: 0;
+}
+.arrow .after{
+    right: 0;
+}
+#reportContainer{
+    height: calc(100% - 56px);
+    width: 100%;
+    align-items: stretch;
+}
+#reportContainer > div{
+    border-right: 1px solid #ccc;
+}
+.verticleNavbar{
+    width: 20vw;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 3rem 0;
+    align-items: center;
+    min-width: 6.5rem;
+}
+.verticleNavbar a{
+    width:6rem;
+}
+.reportContent{
+    width: 80%;
+    overflow-y: scroll;
+    padding: 1rem 2rem;
+}
+.font-semibold{
+    font-weight: normal;
+    font-size: 2rem;
+}
+#simulatorContainer{
+    height: calc(100vh - 56px);
+    width: 100%;
+}
+#simulatorContainer > div{
+    width: 50%;
+    border-radius: 3px;
+    border-right: 1px SOLID #CCC;
+}
+.simulatorImage{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.buttonSection{
+    align-items: center;
+    flex-direction: column;
+}
+
+#questions,#theory{
+    display:inline;
+    width: 80%;
+    overflow-y: scroll;
+    padding: 1rem 2rem;
+ }
+
+ label {
+     padding-left: 5px;
+ }
+
+ #aim,#procedure,#reference,#simulation {
+    display:inline;
+    width: 80%;
+    padding: 1rem 5rem;
+ }
+
+ #aim img{
+     width: 75%;
+     margin: 3rem auto;
+ }
+
+ #aim ul li{
+     font-size: 1.25rem;
+ }
+
+ .score{
+     width: 10rem;
+     height: 5rem;
+     position: absolute;
+     top: 5rem;
+     right: 2rem;
+     border-radius: 3px;
+     background:#212529;
+     color:#fff;
+     flex-direction: column;
+     justify-content:center;
+     align-items:center;
+ }
+
+ .btn-danger:focus{
+     outline:3px solid #007bff9d;
+ }
+
+ .next-btn{
+     position: absolute;
+     bottom: 0;
+     right: 2rem;
+  }
+
+  .question{
+    font-weight: bold !important;
+  }
+
+  .vlabs-page-content h2{
+    padding: 0 !important;
+  }
